@@ -5,6 +5,7 @@ import path from "path";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: "/safari-template/",
   resolve: {
     alias: {
       // Set @ as an alias for the src folder
